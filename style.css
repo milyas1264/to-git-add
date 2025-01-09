@@ -44,12 +44,25 @@ h2{
 }
 #dd{
     border: 10px dot  palegreen;
-}
+} 
 .list{
-    color: red; background-color: yellow; 
-    display: flex; justify-content: center;
-    justify-content: space-around; text-decoration: none;
-li{
-    color: blue; background-color: pink;
-}   
+     display: flex;justify-content: space-evenly;
+    background-color: lightgreen; list-style: none;
+    border: 2px solid red; padding: 10px;
+}
+    li{
+        padding: 10px;
+        border: 1px solid black;
+        background-color: lightblue;
+    }
+}
+a{
+    text-decoration: none;
+    color: black;border: 5px solid green;
+    border-radius: 10px; height: 50px;
+}    
+a:link{background-color: red;}
+a:visited{background-color: green;}
+a:hover{background-color: yellow; color: burlywood;}
+a:active{background-color: blue;}
 }
